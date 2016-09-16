@@ -1,3 +1,11 @@
+select {
+  height: 32px !important;
+  margin: 0 0 0.2rem !important; }
+
+input {
+  height: 30px !important;
+  margin: 0 0 0.2rem !important; }
+
 .top-bar {
   background: #3c8dbc; }
   .top-bar ul {
@@ -13,26 +21,34 @@
   height: 92%; }
 
 #container {
-  height: 95%; }
+  height: 98%; }
 
 #atalhos {
-  height: 5%;
+  height: 2%;
   background: #3c8dbc; }
 
 #coluna-direita {
-  background: #af5582;
+  background: #ddd;
   height: 100%; }
 
 #coluna-esquerda {
   padding: 0;
+  background: #ddd;
   height: 100%; }
 
 #historico {
-  background: #444;
   height: 50%; }
 
 #mapa {
-  background: #46af45;
   height: 50%; }
+
+.switch {
+  margin-bottom: 0 !important; }
+
+.fieldset {
+  padding: 0 !important;
+  margin: 0 !important; }
+  .fieldset legend {
+    background: #ddd; }
 
 /*# sourceMappingURL=app.css.map */

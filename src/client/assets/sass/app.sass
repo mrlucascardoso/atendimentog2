@@ -1,12 +1,23 @@
-$background-base: #3c8dbc
+$background-menu-base: #3c8dbc
+$background-base: #ddd
+$input-height: 30px
+$select-height: 32px
+$input-margin: 0 0 0.2rem
 
+select
+  height: $select-height !important
+  margin: $input-margin !important
+
+input
+  height: $input-height !important
+  margin: $input-margin !important
 
 .top-bar
-  background: $background-base
+  background: $background-menu-base
   // height: 8%
 
   ul
-    background: $background-base
+    background: $background-menu-base
 
 
 
@@ -18,31 +29,42 @@ $background-base: #3c8dbc
   .active
 
     a
-      color: $background-base
+      color: $background-menu-base
       background: #fff
 
 .app
   height: 92%
 
 #container
-  height: 95%
+  height: 98%
 
 #atalhos
-  height: 5%
-  background: $background-base
+  height: 2%
+  background: $background-menu-base
 
 #coluna-direita
-  background: #af5582
+  background: $background-base
   height: 100%
 
 #coluna-esquerda
   padding: 0
+  background: $background-base
   height: 100%
 
 #historico
-  background: #444
   height: 50%
 
 #mapa
-  background: #46af45
   height: 50%
+
+// Sobreescrevendo propriedade do .switch
+.switch
+  margin-bottom: 0 !important
+
+// Sobreescrevendo propriedade do .fieldset
+.fieldset
+  padding: 0 !important
+  margin: 0 !important
+
+  legend
+    background: $background-base
